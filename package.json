@@ -1,5 +1,5 @@
 {
-  "name": "blog",
+  "name": "hello-www2",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",

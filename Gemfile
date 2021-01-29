@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.0'
+
+gem 'record_tag_helper','~>1.0'
 # Annotate models
 gem 'annotate', '3.1.1'
 

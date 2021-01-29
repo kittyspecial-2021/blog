@@ -18,4 +18,5 @@
 #  user_id  (user_id => users.id) ON DELETE => cascade
 #
 class Post < ApplicationRecord
+	has_many :comments
 end

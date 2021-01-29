@@ -20,5 +20,5 @@
 #  user_id  (user_id => users.id) ON DELETE => cascade
 #
 class Comment < ApplicationRecord
-  belongs_to :post
+  	belongs_to :post
 end
